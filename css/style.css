@@ -58,6 +58,7 @@
 }
 section .bsell{
   padding-top: 60px;
+  margin-bottom: 100px;
 }
 
 .card{
@@ -75,6 +76,7 @@ section .bsell{
 }
 
 .title{
+  margin-top: 100px;
   text-align: center;
 }
 hr{
@@ -150,5 +152,35 @@ hr{
     margin-top: 0;
   }
 
-  /*effect card*/
+
+}
+
+
+footer{
+  margin-top: 100px;
+  font-size: 1.3rem;
+  color: grey;
+}
+
+footer a{
+  color: grey;
+  margin-right: 15px;
+}
+
+footer a:hover{
+  color: #1f0812;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer-copy{
+  text-align: center;
+}
+
+footer i.fa{
+  font-size: 1.3rem;
+}
+
+.footer-copy {
+  color: red;
 }
