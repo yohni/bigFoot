@@ -71,6 +71,7 @@ body {
     display: flex;
     text-align: center;
 }
+/*
 @media screen and (max-width:100px){
     .quantity{
         left: 20;
@@ -80,6 +81,7 @@ body {
         text-align: center;
         }
 }
+*/
 
 .section1 .form-group {
     width: 150px;
