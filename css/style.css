@@ -1,6 +1,11 @@
 h1,h3,h5{
     color: #bea57d;
 }
+/*tulisan diskon*/
+.td{
+  color: white;
+}
+
 .navbar{
   z-index: 100;
 }
@@ -42,7 +47,8 @@ h1,h3,h5{
   display: inline-block;
   color: white;
   padding: 20px 30px;
-  border: #fff solid 10px;
+/*  border: #fff solid 10px;*/
+    background-color: rgba(0,0,0,0.5);
 }
 
 .go{
