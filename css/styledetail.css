@@ -66,10 +66,19 @@ body {
 
 .quantity {
     position: relative;
-    left: 95px;
+    left: 65px;
     margin-left: 10px;
     display: flex;
     text-align: center;
+}
+@media screen and (max-width:100px){
+    .quantity{
+        left: 20;
+        position: relative;
+        margin-left: 10px;
+        display: flex;
+        text-align: center;
+        }
 }
 
 .section1 .form-group {
@@ -145,6 +154,7 @@ body {
     border-radius: 50px;
     margin-right: 10px;
     margin-top: 50px;
+    padding-top: 5px;
     
 }
 
@@ -153,16 +163,25 @@ body {
     left: 80px;
     display: flex;
     text-align: center;
+    padding: 10px;
 }
-
 .wrapper .card {
+    
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-right: 20px;
+    
 }
 
 .wrapper .card-body {
-    height: 10rem;
+    height: 13rem;
+}
+.wrapper .card-body .fa-star{
+  font-size: 20px;
+  letter-spacing: -3px;
+  color: #a39dff;
+}
+.wrapper .card-body i.fa-star .checked{
+  color: #ffe900;
 }
 
 .container{
