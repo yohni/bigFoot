@@ -1,7 +1,9 @@
+h1,h3,h5{
+    color: #bea57d;
+}
 .navbar{
   z-index: 100;
 }
-
 .centering{
   text-align: center;
 }
@@ -14,7 +16,7 @@
    /*/filter: brightness(0.3);*/*/
 }
 .img1{
-  background: url('../picture/1.jpg');
+  background: url('../picture/1.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -22,13 +24,13 @@
 }
 
 .img2{
-  background: url('../picture/4.jpg');
+  background: url('../picture/5.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .img3{
-  background: url('../picture/6.jpg');
+  background: url('../picture/3.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
