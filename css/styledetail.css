@@ -7,6 +7,7 @@
 
 h1,
 h2,
+h3,
 h4,
 h5,
 h6 {
@@ -19,121 +20,33 @@ body {
 }
 
 /*detail-page*/
-
-.section1 {
+.bsell1{
     margin-top: 100px;
+}
+.card{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
 }
-
-.section1 .big-pict {
-    background-color: #bea57d;
-    padding: 10px;
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-/*detail cart*/
-
-.section1 .mini-form {
-    background-color: #ffffff;
-    text-align: center;
-}
-
-.section1 .mini-form .tittle {
+.card-title {
     font-weight: 700;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 28px;
+    color: #bea57d;
 }
-
-.section1 .mini-form .amount-off {
-    font-size: 20px;
-    margin-top: 30px;
-    text-align: center;
-    font-weight: 500;
-}
-
-.section1 .mini-form #angka {
-    width: 50px;
-    text-align: center;
+.harga{
     font-size: 25px;
 }
-
-.section1 .mini-form .quantity {
-    margin: auto;
-}
-
-.quantity {
-    position: relative;
-    left: 65px;
-    margin-left: 10px;
-    display: flex;
-    text-align: center;
-}
-/*
-@media screen and (max-width:100px){
-    .quantity{
-        left: 20;
-        position: relative;
-        margin-left: 10px;
-        display: flex;
-        text-align: center;
-        }
-}
-*/
-
-.section1 .form-group {
-    width: 150px;
-    margin-top: 15px;
-}
-
-.section1 option {
-    text-align: center;
-}
-
-.section1 .button-cart {
-    padding: 5px;
-    margin-top: 30px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
-
-
-
-/*section 2*/
-
-.section2 {
-    margin-top: 30px;
-    background-color: #bea57d;
-    color: white;
-    padding-bottom: 30px;
-}
-
-.section2 .tittle2 {
-    padding: 50px 0 10px 0;
-    letter-spacing: 4px;
-    font-weight: 800;
-}
-
-.section2 .simple-des {
+.deskripsi{
     margin-top: 50px;
+    text-align: center;
 }
 
-.section2 h6 {
-    font-weight: 500;
+.deskripsi h5,h6{
+    color: #bea57d;
+    padding-top: 4px;
 }
-
-.section2 .kotak1 {
-    padding-top: 10px;
-    border-top: 2px solid white;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
-}
-
-.section2 .kotak2 {
-    padding-top: 10px;
-    border-bottom: 2px solid white;
+.deskripsi .box{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-top: px;
 }
 
 
