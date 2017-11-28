@@ -144,4 +144,24 @@ body {
   background-image: url(../picture/fas5.jpeg);
 }
 
-
+/*style-detail*/
+.title-about{
+    color: #bea57d;
+    margin-top: 100px;
+}
+strong{
+    color: #bea57d;
+}
+.abot{
+    margin-top: 50px;
+    max-width: 500px;
+    animation-delay: 0.3s;
+}
+.abot1{
+     max-width: 700px;
+    animation-delay: 1s;
+}
+.abot2{
+    max-width: 900px;
+    animation-delay: 2s;
+}
